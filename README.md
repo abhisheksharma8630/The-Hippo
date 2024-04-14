@@ -2,6 +2,23 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+Create .env file along with following key:
+```bash
+POSTGRES_URL:
+POSTGRES_PRISMA_URL:
+POSTGRES_URL_NO_SSL:
+POSTGRES_URL_NON_POOLING:
+POSTGRES_USER:
+POSTGRES_HOST:
+POSTGRES_PASSWORD:
+POSTGRES_DATABASE:
+
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY:
+CLERK_SECRET_KEY:
+```
+
+
+
 First, run the development server:
 
 ```bash
